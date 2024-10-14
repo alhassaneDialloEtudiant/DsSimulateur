@@ -1,0 +1,46 @@
+.bg-custom {
+    background-color: #f8f9fa; /* Gris clair */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.table th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+.table-warning {
+    background-color: #ffdddd;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+}
+
+input {
+    width: 100px;
+}
+
+.form-control-sm {
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    .row > .col-md-6 {
+        margin-bottom: 20px;
+    }
+}
